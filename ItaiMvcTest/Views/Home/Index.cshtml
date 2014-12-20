@@ -1,0 +1,13 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<h1>Enter a number to see its value 10 percent low and 10 percent high </h1>
+
+<form action="@Url.Action( "DoMath","Home" )">
+    
+    <input type="text" name="number"/>
+
+    <input type="submit"/>
+
+</form>
